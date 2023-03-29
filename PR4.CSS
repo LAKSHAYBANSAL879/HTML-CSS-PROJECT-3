@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Delicious+Handrawn&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+    /* margin-left: 2vw; */
+    height: 15vh;
+    width: 100vw;
+    /* flex-direction: column; */
+}
+.logo{
+    display: flex;
+align-items: center;
+}
+.logo img{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 2vw;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    gap: 4vw;
+    /* flex-direction: column; */
+}
+.list ul li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    margin-left: 15vw;
+    padding: 10px;
+    background-color: rgb(77, 64, 147);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button:hover{
+    color:rgb(77, 64, 147) ;
+    background-color: wheat;
+}
+main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+/* flex-direction: column; */
+margin-top:8vh ;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    flex-direction: column;
+    gap: 5vh;
+    margin-left: 3vw;
+    flex-wrap: wrap;
+}
+.lines h1{
+    font-size: 55px;
+    font-family: 'Alkatra', cursive;
+    line-height: 8vh;
+}
+
+.lines h3{
+    font-size: 30px;
+    font-family: 'Delicious Handrawn', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+span{
+    color:rgb(77, 64, 147) ;
+}
+.button button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(77, 64, 147);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    margin-left: 10vw;
+}
+.img img{
+    width: 50vw;
+    height: 40vh;
+
+}
+button:hover{
+    color:rgb(77, 64, 147) ;
+    background-color: wheat;
+}
+@media (max-width:859px) {
+.lines h1{
+    font-size: 35px;
+}   
+.lines h3{
+    font-size: 15px;
+} 
+li a{
+    font-size: 8px;
+}
+.btn button{
+    margin-left: 15vw;
+}
+}
+@media (max-width:356px) {
+    .img img{
+        margin-left: 2vw;
+        margin-right: 0vw;
+        width: 60vw;
+        height: 60vw;
+    }
+    .lines h1{
+        font-size: 20px;
+    }
+    .btn button{margin-left: 5vw;}
+}
